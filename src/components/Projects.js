@@ -68,7 +68,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="tests">
       <Container>
         <Row>
           <Col size={12}>
