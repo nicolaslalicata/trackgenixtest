@@ -51,18 +51,18 @@ export const Projects = () => {
   ];
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      description: "",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      description: "",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      description: "",
       imgUrl: projImg3,
     },
   ];
