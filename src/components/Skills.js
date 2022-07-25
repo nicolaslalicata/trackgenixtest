@@ -3,10 +3,9 @@ import meter2 from "../assets/img/allure.png";
 import meter3 from "../assets/img/postman.png";
 import meter4 from "../assets/img/webdriverio.png";
 import meter5 from "../assets/img/lighthouse.svg";
+import meter6 from "../assets/img/contrastchecker.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
@@ -64,6 +63,10 @@ export const Skills = () => {
                 <div className="item">
                   <img src={meter5} alt="Image" />
                   <h5>Google Lighthouse</h5>
+                </div>
+                <div className="item">
+                  <img src={meter6} alt="Image" />
+                  <h5>Contrast Checker</h5>
                 </div>
               </Carousel>
             </div>

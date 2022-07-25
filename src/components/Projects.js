@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/accesibility.png";
+import projImg2 from "../assets/img/testplan.jpg";
+import projImg3 from "../assets/img/testcases.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -10,33 +10,42 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: <a href="www.google.com">"Business Startup"</a>,
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: <a href="www.google.com.ar">"Business Startup"</a>,
-      description: "Design & Development",
+      title: (
+        <a
+          href="https://docs.google.com/document/d/1YHndy-PSShydxAeZClbWXcXsmNB7C7XV/edit"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Test Plan
+        </a>
+      ),
+      description: "Total plan for application testing",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: (
+        <a
+          href="https://docs.google.com/document/d/195ZgW8USeDULxYZOzjyI4VweY2tXMjJfNYw43yP3QbA"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Accesibility Report
+        </a>
+      ),
+      description: "Google Lighthouse, Contrast Checker and Contrast Finder",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: (
+        <a
+          href="https://docs.google.com/spreadsheets/d/1eLnqOQF886GQkP363mzfNakipLPHz6VTivJK6SXPf04"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Test Cases
+        </a>
+      ),
+      description: "It is documented what is to be tested.",
       imgUrl: projImg3,
     },
   ];
@@ -70,13 +79,25 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projects</h2>
+                  <h2>Tests and Documentation</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    In this section we will find the different manual tests that
+                    were applied to the application.{" "}
+                    <li>
+                      The <b>accessibility tests</b> we make sure that our site
+                      complies with the standards of the WCAG (Web Content
+                      Accessibility Guidelines).
+                    </li>
+                    <li>
+                      The <b>Test Plan</b> is a document that allows us to know
+                      how, with what tools and how long we are going to test the
+                      application.
+                    </li>{" "}
+                    <li>
+                      The <b>Test Cases</b> are the design of what is going to
+                      be tested in the application (ex: login, signup, close
+                      modal).
+                    </li>
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav

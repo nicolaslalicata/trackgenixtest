@@ -57,7 +57,7 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("skills")}
               >
-                Skills
+                Tools
               </Nav.Link>
               <Nav.Link
                 href="#project"
@@ -68,24 +68,36 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("project")}
               >
-                Projects
+                Tests&Documentation
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
-                  <img src={navIcon1} alt="" />
-                </a>
-                <a href="#">
+                <a
+                  href="https://www.facebook.com/radiumrocket"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={navIcon2} alt="" />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/company/radium-rocket/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={navIcon1} alt="" />
+                </a>
+                <a
+                  href="https://www.instagram.com/radium.rocket/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={navIcon3} alt="" />
                 </a>
               </div>
               <HashLink to="#connect">
                 <button className="vvd">
-                  <span>Let’s Connect</span>
+                  <span>Contact Team</span>
                 </button>
               </HashLink>
             </span>

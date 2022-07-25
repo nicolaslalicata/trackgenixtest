@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/astronaut.png";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -67,7 +66,7 @@ export const Banner = () => {
                     Welcome to Documentation of Trackgenix
                   </span>
                   <h1>
-                    {`Hi! We're alumns Radium Rocket: `}
+                    {`Hi! We're alumns to Radium Rocket: `}
                     <br></br>{" "}
                     <span
                       className="txt-rotate"
@@ -79,14 +78,20 @@ export const Banner = () => {
                   </h1>
                   <p>
                     This page was created to show the community the progress of
-                    our project, in terms of development and testing. If the
-                    project is further developed, you will be able to see its
-                    updates here. I would like to thank our mentors, Diego and
-                    Paloma, who were always there for any doubt, they were the
-                    great precursors of the synergy that was created in the
-                    team.
+                    our project,{" "}
+                    <a
+                      href="https://diego-trackgenix-app.vercel.app/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <b>Trackgenix App</b>
+                    </a>
+                    , in terms of development and testing. If the project is
+                    further developed, you will be able to see its updates here.
+                    I would like to thank our mentors, Diego and Paloma, who
+                    were always there for any doubt, they were the great
+                    precursors of the synergy that was created in the team.
                   </p>
-                  <button>Let’s Go!</button>
                 </div>
               )}
             </TrackVisibility>
