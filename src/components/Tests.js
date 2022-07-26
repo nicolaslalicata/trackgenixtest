@@ -55,7 +55,7 @@ export const Tests = () => {
     {
       title: (
         <a href="https://youtu.be/_dEjFGH_oRk" target="_blank" rel="noreferrer">
-          "Automation in Home, Login and Sign Up"
+          Automation in Home, Login and Sign Up
         </a>
       ),
       description:
@@ -74,10 +74,10 @@ export const Tests = () => {
           target="_blank"
           rel="noreferrer"
         >
-          "Accesibility Report"
+          Automated Accesibility Report
         </a>
       ),
-      description: "For made this reports  we are used Google Lighthouse",
+      description: "This reports was created with the Google Lighthouse tool.",
       imgUrl: projImg5,
     },
   ];
