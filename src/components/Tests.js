@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/accesibility.png";
 import projImg2 from "../assets/img/testplan.jpg";
 import projImg3 from "../assets/img/testcases.png";
+import projImg4 from "../assets/img/automation1.png";
+import projImg5 from "../assets/img/accesibilityautomation.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -32,7 +34,7 @@ export const Tests = () => {
           Accesibility Report
         </a>
       ),
-      description: "Google Lighthouse, Contrast Checker and Contrast Finder",
+      description: "Contrast Checker and Contrast Finder",
       imgUrl: projImg1,
     },
     {
@@ -51,9 +53,14 @@ export const Tests = () => {
   ];
   const projects2 = [
     {
-      title: "",
-      description: "",
-      imgUrl: projImg1,
+      title: (
+        <a href="https://youtu.be/_dEjFGH_oRk" target="_blank" rel="noreferrer">
+          "Automation in Home, Login and Sign Up"
+        </a>
+      ),
+      description:
+        "webdriverIo was used in order to test the first part of app",
+      imgUrl: projImg4,
     },
     {
       title: "",
@@ -61,9 +68,17 @@ export const Tests = () => {
       imgUrl: projImg3,
     },
     {
-      title: "",
-      description: "",
-      imgUrl: projImg3,
+      title: (
+        <a
+          href="https://drive.google.com/drive/folders/1qnE2XDze9W5biT3BoI2ZYri6pTep2sDR?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          "Accesibility Report"
+        </a>
+      ),
+      description: "For made this reports  we are used Google Lighthouse",
+      imgUrl: projImg5,
     },
   ];
 
