@@ -7,7 +7,7 @@ import projImg4 from "../assets/img/automation1.png";
 import projImg5 from "../assets/img/accesibilityautomation.png";
 import projImg6 from "../assets/img/automation2.png";
 import projImg7 from "../assets/img/automation3.png";
-
+import projImg8 from "../assets/img/manual1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -24,7 +24,7 @@ export const Tests = () => {
           Test Plan
         </a>
       ),
-      description: "Total plan for application testing",
+      description: "",
       imgUrl: projImg2,
     },
     {
@@ -37,8 +37,21 @@ export const Tests = () => {
           Accesibility Report
         </a>
       ),
-      description: "Contrast Checker and Contrast Finder",
+      description: "",
       imgUrl: projImg1,
+    },
+    {
+      title: (
+        <a
+          href="https://docs.google.com/document/d/1pN-hdVQbon0Nco7grVPavXcf69QjvcMFvkEbxqv4aRA"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Automation Strategy
+        </a>
+      ),
+      description: "",
+      imgUrl: projImg8,
     },
     {
       title: (
@@ -50,7 +63,7 @@ export const Tests = () => {
           Test Cases
         </a>
       ),
-      description: "It is documented what is to be tested.",
+      description: "",
       imgUrl: projImg3,
     },
   ];
