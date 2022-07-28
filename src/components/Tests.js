@@ -6,6 +6,8 @@ import projImg3 from "../assets/img/testcases.png";
 import projImg4 from "../assets/img/automation1.png";
 import projImg5 from "../assets/img/accesibilityautomation.png";
 import projImg6 from "../assets/img/automation2.png";
+import projImg7 from "../assets/img/automation3.png";
+
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -73,6 +75,7 @@ export const Tests = () => {
         "It was tested that users can create, edit and delete tasks from the Timesheet and Task entities",
       imgUrl: projImg6,
     },
+
     {
       title: (
         <a
@@ -85,6 +88,16 @@ export const Tests = () => {
       ),
       description: "This reports was created with the Google Lighthouse tool.",
       imgUrl: projImg5,
+    },
+    {
+      title: (
+        <a href="https://youtu.be/SfeHOPssL_Y" target="_blank" rel="noreferrer">
+          Collection Postman
+        </a>
+      ),
+      description:
+        "This reports was created with the Postman for test Backend.",
+      imgUrl: projImg7,
     },
   ];
 
