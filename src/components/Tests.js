@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/testplan.jpg";
 import projImg3 from "../assets/img/testcases.png";
 import projImg4 from "../assets/img/automation1.png";
 import projImg5 from "../assets/img/accesibilityautomation.png";
+import projImg6 from "../assets/img/automation2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -63,9 +64,14 @@ export const Tests = () => {
       imgUrl: projImg4,
     },
     {
-      title: "",
-      description: "",
-      imgUrl: projImg3,
+      title: (
+        <a href="https://youtu.be/FIzOeczavWY" target="_blank" rel="noreferrer">
+          Automation Add/Edit/Delete"
+        </a>
+      ),
+      description:
+        "It was tested that users can create, edit and delete tasks from the Timesheet and Task entities",
+      imgUrl: projImg6,
     },
     {
       title: (
