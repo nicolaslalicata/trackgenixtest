@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trackgenixtest/static/css/main.ea036c7b.css",
-    "main.js": "/trackgenixtest/static/js/main.ae2def10.js",
+    "main.js": "/trackgenixtest/static/js/main.aac6e681.js",
     "static/js/787.c2d527bf.chunk.js": "/trackgenixtest/static/js/787.c2d527bf.chunk.js",
     "static/media/astronaut.png": "/trackgenixtest/static/media/astronaut.59177b68a889597b5c94.png",
     "static/media/color-sharp.png": "/trackgenixtest/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -32,11 +32,11 @@
     "static/media/nav-icon1.svg": "/trackgenixtest/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/trackgenixtest/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.ea036c7b.css.map": "/trackgenixtest/static/css/main.ea036c7b.css.map",
-    "main.ae2def10.js.map": "/trackgenixtest/static/js/main.ae2def10.js.map",
+    "main.aac6e681.js.map": "/trackgenixtest/static/js/main.aac6e681.js.map",
     "787.c2d527bf.chunk.js.map": "/trackgenixtest/static/js/787.c2d527bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ea036c7b.css",
-    "static/js/main.ae2def10.js"
+    "static/js/main.aac6e681.js"
   ]
 }
